@@ -10,6 +10,8 @@ window.bordered = function(opts)
     col_offset = opts.col_offset or 0,
     side_padding = opts.side_padding or 1,
     scrollbar = opts.scrollbar == nil and true or opts.scrollbar,
+    title = opts.title or '',
+    title_pos = opts.title_pos or 'center',
   }
 end
 

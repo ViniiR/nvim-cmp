@@ -124,6 +124,8 @@ cmp.ItemField = {
 ---@field public winhighlight? string
 ---@field public winblend? number
 ---@field public zindex? integer|nil
+---@field public title? string
+---@field public title_pos? string
 
 ---@class cmp.CompletionWindowOptions: cmp.WindowOptions
 ---@field public scrolloff? integer|nil

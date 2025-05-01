@@ -111,6 +111,8 @@ docs_view.open = function(self, e, view)
     col = col,
     border = documentation.border,
     zindex = documentation.zindex or 50,
+    title = view.title or "  Docs ",
+    title_pos = view.title_pos or "center",
   }
   self.window:open(style)
 

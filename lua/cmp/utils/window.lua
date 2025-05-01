@@ -12,6 +12,8 @@ local config = require('cmp.config')
 ---@field public height integer|float
 ---@field public border string|string[]|nil
 ---@field public zindex integer|nil
+---@field public title string|nil
+---@field public title_pos string|nil
 
 ---@class cmp.Window
 ---@field public name string
